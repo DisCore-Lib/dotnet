@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace DisCore
 {
-    public class Class1
+    public class DisCore
     {
+        private String token;
+        public DisCore(String token)
+        {
+            this.token = token;
+        }
     }
 }
